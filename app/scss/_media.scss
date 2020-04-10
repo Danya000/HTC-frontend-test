@@ -1,0 +1,510 @@
+@media (min-width: 4200px) {
+
+    .tv__container-list {
+        font-size: 5px;
+    }
+
+    .geners {
+        padding-top: 5%;
+    }
+
+    .form__search-icon {
+        display: none;
+    }
+}
+
+@media (min-width: 1180px) {
+    .films__list-item {x
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+        }
+    }
+
+    .geners__list-item {
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .form__search-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1211px) {
+    .geners {
+        padding-top: 38%;
+    }
+
+    .form__search-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        width: 100%;
+     
+    }
+
+    .films {
+        padding-right: 32px;
+    }
+
+    .geners {
+        padding-top: 38%;
+    }
+
+    .footer {
+        width: 80%;
+    }
+
+    .footer__container {
+        width: 700px;
+        margin: 14px;
+    }
+
+    .form__search-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1120px) {
+    .body {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .geners {
+        padding-top: 50%;
+    }
+
+    .tv__container-list {
+        font-size: 13px;
+    }
+
+    .footer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        input[type="search"] {
+            max-width: 250px;
+        }
+    }
+
+    .tv__container-list {
+        width: 783px;
+
+        .tv-program-list {
+            font-size: 11px;
+        }
+    }
+
+    .geners {
+        padding-top: 60%;
+    }
+}
+
+@media (max-width: 820px) {
+    header {
+        height: 180px;
+       
+        .container {
+            height: 150px;
+            max-width: 640px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+          
+
+        input[type="search"] {
+            margin-bottom: 30px;
+            margin-left: 220px;
+            max-width: 222px;
+        }
+
+        .output-btn {
+            margin-left:  -6%;
+        }
+    }
+
+    .tabs {
+        padding-top: 20px;
+
+        &:last-cild {
+            margin-right: 0;
+        }
+    }
+
+    li {
+        width: 70%;
+        margin: 5px auto 10px auto;
+    }
+
+    .films {
+        width: 100%;
+        height: 1850px;
+    }
+
+    .films__list {
+        display: flex;
+        flex-wrap: nowrap;
+
+        &:last-child {
+            margin: 10px auto 20px auto;
+        }
+    }
+
+    .films__list-item {
+        margin: 10px auto 20px auto;
+    }
+
+    .geners {
+        padding-top: 60%;
+    }
+
+    .geners__list {
+        display: flex;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .geners__list-item {
+        margin: 10px auto 20px auto;
+    }
+
+    .tv__container-list {
+        width: 1050px;
+        margin-left: -160px;
+
+        .tv-program-list {
+            font-size: 6px;
+        }
+    }
+
+    .tv__container-list-item {
+        height: 400px;
+        list-style: none;
+
+        .logo {
+            width: 10px;
+            height: 10px;
+            padding-right: 72px;
+        }
+    }
+
+    .tv-list-program__time {
+        width: 10px;
+        padding-right: 60px;
+    }
+
+    footer {
+        height: 120px;
+    }
+}
+
+@media (max-width: 752px) {
+     .header {
+         width: 100%;
+          .container {
+            text-align: center;
+        }
+        #btn {
+            margin-left: -52px;
+        }
+
+         .output-btn {
+             margin-left: -15%;
+         }
+     }
+    .tv__container-list {
+        .tv-program-list {
+            font-size: 6px;
+        }
+    }
+
+    .geners {
+        padding-top: 70%;
+    }
+}
+
+@media (max-width: 697px) {
+    .header {
+        .container {
+            text-align: center;
+        }
+
+        margin-right: 10%;
+
+        .form__search {
+            max-width: 190px;
+            align-items: center;
+        }
+    
+        #btn {
+            margin-bottom: 20px;
+        }
+        .container__form {
+            margin-bottom: -25px;
+            padding-right: 20px;
+            margin-top: 4px;
+        }
+
+       
+        .form__search-button {
+            display: none;
+        }
+
+        .output-btn {
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+
+    .container__form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container__name {
+        align-items: center;
+        font-size: 3px;
+    }
+}
+
+@media (max-width: 649px) {
+    .header {
+
+        .container {
+            align-items: center;
+
+            .form__search {
+                margin-left: 80px;
+            }
+       
+
+        }
+
+        .container__name {
+            display: none;
+        }
+
+        .container__icon {
+            padding-top: 30px;
+            padding-right: 250px;
+        }
+    }
+
+    
+    .films__list {
+        margin-left: 40px;
+    }
+
+    .tv__container-list {
+        width: 150%;
+    }
+}
+
+.footer {
+    font-size: 15px;
+
+    .footer__container-address {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 633px) {
+    .geners {
+        padding-top: 1365px;
+    }
+#film__list {
+    padding-left: 140px;
+}
+ #gener__list {
+     padding-left: 140px;
+ }
+  .geners__header {
+      padding-left: 140px;
+  }
+      .films__header {
+          padding-left: 140px;
+      }
+
+    .tv__container_list {
+        width: 900px;
+
+        .tv-program-list {
+            padding-right: 20px;
+            font-size: 8px;
+        }
+
+        .logo {
+            max-width: 230px;
+        }
+    }
+}
+
+@media (max-width: 608px) {
+    .geners {
+        padding-top: 1365px;
+    }
+
+    .tv__container-list {
+        width: 900px;
+
+        .tv-program-list {
+            padding-right: 20px;
+            font-size: 8px;
+        }
+
+        .logo {
+            max-width: 230px;
+        }
+    }
+
+    .films {
+        align-items: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .header {
+        .form__search {
+            max-width: 180px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        margin-left: -25px;
+    }
+
+    .films__header {
+        padding-left: 60px;
+    }
+
+    #film__list {
+        padding-left: 60px;
+    }
+
+    .geners__header {
+        padding-left: 60px;
+    }
+
+    #gener__list {
+        padding-left: 60px;
+    }
+
+    .tv__container-list {
+        width: 680px;
+
+        .tv-program-list {
+            font-size: 6px;
+        }
+
+        .logo {
+            max-width: 160px;
+
+            .logo__img {
+                display: none;
+            }
+        }
+    }
+
+    .geners {
+        padding-top: 1365px;
+    }
+
+    .footer {
+        font-size: 11px;
+
+        .footer__container-address {
+            margin-right: 300px;
+            line-height: 1.5;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        padding-left: 32px;
+        .container__icon {
+            margin-left: 12px;
+        }
+        .output-btn {
+            margin-left: -50%;
+        }
+          
+        .form__search {
+            max-width: 130px;
+            margin-left: 120px;
+        }
+
+       
+        
+    }
+
+    .films__header {
+        padding-left: 10px;
+    }
+
+    #film__list {
+        padding-left: 5px;
+    }
+
+    #gener__list {
+        padding-left: 5px;
+    }
+
+    .geners__header {
+        padding-left: 10px;
+    }
+
+    .tv__container-list {
+        width: 550px;
+        padding-right: 15px;
+
+        .tv-program-list {
+            font-size: 5px;
+        }
+
+        .logo {
+            .logo__img {
+                display: none;
+            }
+        }
+    }
+
+    .footer {
+        font-size: 10px;
+        max-width: 1200px;
+
+        .footer__container {
+            padding-top: 60px;
+            margin-left: -50px;
+
+            .footer__container-img {
+                display: none;
+            }
+        }
+
+        .footer__container-address {
+            margin-right: 330px;
+            line-height: 2;
+        }
+    }
+}
