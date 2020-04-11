@@ -73,9 +73,9 @@ const checkBox = document.getElementById('remember');
  let rememberMe = function (inputValue) {
   if (checkBox.checked = true) {
     console.log('check');
-    localStorage.setItem('check_name', inputValue);
-    if (localStorage.getItem('check_name') != null) {
-      let checkName = localStorage.getItem('check_name');
+    localStorage.setItem('check-name', inputValue);
+    if (localStorage.getItem('check-name') != null) {
+      let checkName = localStorage.getItem('check-name');
       console.log(checkName);
       let authName = document.getElementById('auth-name').innerHTML = checkName;
 
@@ -87,7 +87,7 @@ const checkBox = document.getElementById('remember');
 
 
 
-   let outerCheck = localStorage.getItem('check_name')
+   let outerCheck = localStorage.getItem('check-name')
    console.log(outerCheck);
 
    if (outerCheck) {
