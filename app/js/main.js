@@ -57,7 +57,7 @@ authLoginBtn.addEventListener('click', () => {
 })
 
 
-//Input name
+
 
 const inputName = document.getElementById("uname");
 
@@ -85,7 +85,7 @@ const checkBox = document.getElementById('remember');
   }
 }
 
-//Stay online
+
 
    let outerCheck = localStorage.getItem('check_name')
    console.log(outerCheck);
