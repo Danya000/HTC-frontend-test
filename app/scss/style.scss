@@ -33,12 +33,7 @@
     outline: none;
 }
 
-body {
-    font-family: $fontFamilyR;
-    max-width: 1250px;
-    margin: 0 auto;
-    min-height: 100%;
-}
+
 
 .header {
     .container {
@@ -46,6 +41,10 @@ body {
         margin-top: 2%;
         display: $displayF;
         justify-content: space-between;
+        font-family: $fontFamilyR;
+        max-width: 1240px;
+        margin: 0 auto;
+        min-height: 100%;
 
         .container__icon {
             display: $displayF;
@@ -172,11 +171,13 @@ body {
         .output {
             @extend %button-styles;
             color: $color1;
-            margin: 8px 0 8px 5px;
+            margin: 9px 0 0 0;
             border: $border;
             width: 100px;
             height: 30px;
             text-align: center;
+            font-size: 16px;
+            background-color: #fff;
         }
 
         .st__button {
@@ -236,6 +237,10 @@ body {
     text-align: center;
     margin-bottom: 20px;
     padding: 0;
+    font-family: $fontFamilyR;
+    max-width: 1210px;
+    margin: 0 auto;
+    min-height: 100%;
 }
 
 .section__tab-film-button {
@@ -267,6 +272,10 @@ body {
 .tabcontent {
     animation: fadeEffect 0.5s;
     margin-left: 26px;
+    font-family: $fontFamilyR;
+    max-width: 1210px;
+    margin: 0 auto;
+    min-height: 100%;
 }
 
 .films {
@@ -378,7 +387,7 @@ body {
         font-size: 24px;
         line-height: 30px;
         font-weight: 500;
-        color: #333;
+        color: $color2;
         margin: 0 0 0 2px;
     }
 
@@ -562,6 +571,11 @@ body {
     background-color: #F2F2F2;
     width: 100%;
     
+    .footer__container {
+        font-family: $fontFamilyR;
+        max-width: 1290px;
+        margin: 0 auto;
+    }
 
     .footer__container-img {
         margin-top: 8px;
@@ -579,6 +593,8 @@ body {
             color: #1F4766;
             text-decoration: none;
             padding-left: 4px;
+            font-size: 16px;
+            line-height: 19px;
         }
     }
 }
