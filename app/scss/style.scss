@@ -172,7 +172,7 @@
         .output {
             @extend %button-styles;
             color: $color1;
-            margin: 9px 0 0 0;
+            margin: 9px 5px 0 0;
             border: $border;
             width: 100px;
             height: 30px;
@@ -185,7 +185,7 @@
             @extend %button-styles;
             color: white;
             padding: 10px 32px;
-            margin: 8px 20px 0 0;
+            margin: 8px 25px 0 0;
             border: $border;
             width: 113px;
             height: 38px;
@@ -585,7 +585,7 @@
 
     .footer__container-address {
         margin-top: -90px;
-        margin-left: 130px;
+        margin-left: 120px;
         color: $color2;
         line-height: 1;
 
