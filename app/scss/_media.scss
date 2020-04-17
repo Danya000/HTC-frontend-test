@@ -491,20 +491,20 @@
     }
 
     .footer {
-        font-size: 10px;
-        max-width: 1200px;
+        font-size: 9px;
+
 
         .footer__container {
-            padding-top: 60px;
-            margin-left: -50px;
-
+            padding-top: 80px;
+            padding-right: 90px;
+  
             .footer__container-img {
                 display: none;
             }
         }
 
         .footer__container-address {
-            margin-right: 330px;
+            
             line-height: 2;
         }
     }
