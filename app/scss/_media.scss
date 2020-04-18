@@ -14,8 +14,8 @@
 }
 
 @media (min-width: 1180px) {
-    .films__list-item {x
-        &:last-child {
+    .films__list-item {
+         &:last-child {
             padding-right: 0;
             margin-right: 0;
         }
@@ -33,8 +33,6 @@
 }
 
 @media (max-width: 1211px) {
-
-
     .form__search-icon {
         display: none;
     }
@@ -43,7 +41,7 @@
 @media (max-width: 1200px) {
     .header {
         width: 100%;
-     
+
     }
 
     .films {
@@ -76,10 +74,14 @@
 
     .header {
         width: 100%;
+
+         input[type="search"] {
+             max-width: 220px;
+         }
     }
 
     .geners {
-        padding-top: 50%;
+        padding-top: 450px;
     }
 
     .tv__container-list {
@@ -91,11 +93,23 @@
     }
 }
 
+@media(max-width: 905px) {
+      header {
+
+          input[type="search"] {
+              max-width: 230px;
+          }
+
+      }
+}
+
 @media (max-width: 900px) {
     header {
+        
         input[type="search"] {
             max-width: 230px;
         }
+     
     }
 
     .tv__container-list {
@@ -111,25 +125,19 @@
     }
 }
 
-@media (max-width: 822px) {
- #btn {
-     margin-left: -50px;
- }
-}
-
 
 @media (max-width: 820px) {
     header {
-        
+    margin-left: -50px;
         .container {
             height: 150px;
             max-width: 640px;
-            display: flex;
+            display: $displayF;
             flex-direction: column;
             flex-wrap: wrap;
 
         }
-          
+
 
         input[type="search"] {
             margin-bottom: 30px;
@@ -138,7 +146,7 @@
         }
 
         .output-btn {
-            margin-left:  -6%;
+            margin-left: -6%;
         }
     }
 
@@ -161,7 +169,7 @@
     }
 
     .films__list {
-        display: flex;
+        display: $displayF;
         flex-wrap: nowrap;
 
         &:last-child {
@@ -178,7 +186,7 @@
     }
 
     .geners__list {
-        display: flex;
+        display: $displayF;
         align-content: center;
         flex-wrap: nowrap;
     }
@@ -217,18 +225,29 @@
     }
 }
 
+@media (max-width: 765px) {
+    .container {
+        .st__button {
+            position: relative;
+            right: 35px;
+        }
+    }
+}
+
 @media (max-width: 752px) {
-     .header {
-         width: 100%;
-          .container {
+    .header {
+        width: 100%;
+
+        .container {
             text-align: center;
         }
-      
 
-         .output-btn {
-             margin-left: -15%;
-         }
-     }
+
+        .output-btn {
+            margin-left: -15%;
+        }
+    }
+
     .tv__container-list {
         .tv-program-list {
             font-size: 6px;
@@ -253,28 +272,28 @@
             max-width: 190px;
             align-items: center;
         }
-    
-   
+
+
         .container__form {
             margin-bottom: -25px;
             padding-right: 20px;
             margin-top: 4px;
         }
 
-       
+
         .form__search-button {
             display: none;
         }
 
         .output-btn {
-            display: flex;
+            display: $displayF;
             flex-direction: column;
         }
-        
+
     }
 
     .container__form {
-        display: flex;
+        display: $displayF;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -294,7 +313,7 @@
             .form__search {
                 margin-left: 80px;
             }
-       
+
 
         }
 
@@ -308,7 +327,7 @@
         }
     }
 
-    
+
     .films__list {
         margin-left: 40px;
     }
@@ -330,18 +349,22 @@
     .geners {
         padding-top: 1365px;
     }
-#film__list {
-    padding-left: 140px;
-}
- #gener__list {
-     padding-left: 140px;
- }
-  .geners__header {
-      padding-left: 140px;
-  }
-      .films__header {
-          padding-left: 140px;
-      }
+
+    #film__list {
+        padding-left: 140px;
+    }
+
+    #gener__list {
+        padding-left: 140px;
+    }
+
+    .geners__header {
+        padding-left: 140px;
+    }
+
+    .films__header {
+        padding-left: 140px;
+    }
 
     .tv__container_list {
         width: 900px;
@@ -387,7 +410,7 @@
         }
 
         .container {
-            display: flex;
+            display: $displayF;
             flex-direction: column;
         }
 
@@ -442,21 +465,26 @@
 
 @media (max-width: 400px) {
     .header {
-       
+
+         input[type="search"] {
+             max-width: 200px;
+         }
+
         .container__icon {
             margin-left: 12px;
         }
+
         .output-btn {
             margin-left: -50%;
         }
-          
+
         .form__search {
             max-width: 130px;
             margin-left: 120px;
         }
 
-       
-        
+
+
     }
 
     .films__header {
@@ -497,15 +525,15 @@
         .footer__container {
             padding-top: 80px;
             padding-right: 90px;
-  
+
             .footer__container-img {
                 display: none;
             }
         }
 
         .footer__container-address {
-            
-            line-height: 2;
+            line-height: 1;
         }
     }
 }
+ 
